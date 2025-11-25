@@ -39,18 +39,18 @@ usage: CorrectR1_v1.12.py [-h] -d DIR [-t T] [-s S] [--trimstart TRIMSTART] [--t
 
 Batch R1 correction using R2 overlap
 
-options:
-  -h, --help            show this help message and exit
-  -d, --dir DIR         Directory containing paired FASTQ files
-  -t T                  Number of threads (samples in parallel)
-  -s S                  Reads to skip from start
-  --trimstart TRIMSTART
-  --trimend TRIMEND
-  -m M
-  -mm MM
-  -go GO
-  -ge GE
-  --motif MOTIF
+options:\
+  -h, --help            show this help message and exit\
+  -d, --dir DIR         Directory containing paired FASTQ files\
+  -t T                  Number of threads (samples in parallel)\
+  -s S                  Reads to skip from start\
+  --trimstart TRIMSTART\
+  --trimend TRIMEND\
+  -m M\
+  -mm MM\
+  -go GO\
+  -ge GE\
+  --motif MOTIF\
 
 Example:
-python correct_R1_v1.12.py -d "/home/mw304m/CorrectR1/HTT_Sperm/PanelC" -t 8 --trimstart 150 --trimend 30
+python correct_R1_v1.12.py -d "/path/to/directory" -t 8 --trimstart 150 --trimend 30
