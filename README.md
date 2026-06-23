@@ -1,4 +1,7 @@
-# CorrectR1
+## CorrectR1
+
+# Use PEAR merge instead of this tool
+
 Pairwise correction of amplicon MiSeq paired reads
 
 CorrectR1_v1.12.py\
